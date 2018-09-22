@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MagnifierJS</title>
+
+  <!-- import JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- import Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- import EventJS -->
+  <script src="scripts/event.js"></script>  
+
+  <!-- import MagnifierJS -->
+  <link rel="stylesheet" href="css/magnifier.css">
+  <script src="scripts/magnifier.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  <script src="scripts/main.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    
+    <div class="row">
+      <h2>Magnifier JS</h2>
+    </div>
+
+    <div class="row">
+      <h3>Magnifier JS use Magnifier JS options</h3>
+
+      <span class="magnifier-thumb-wrapper">
+        <img id="js-thumb-options" src="images/original_image.jpg">
+      </span>
+
+      <div class="magnifier-preview" id="js-large-wrapper-options"
+        style="width: 200px; height: 133px">
+      </div>
+    </div>
+
+    <div class="row">
+      <h3>Magnifier JS use HTML data attributes</h3>
+
+      <span class="magnifier-thumb-wrapper">
+        <img id="js-thumb-data-attributes" src="images/original_image.jpg"
+          data-large-img-url="images/large_image.jpg"
+          data-large-img-wrapper="js-large-wrapper-data-attributes">
+      </span>
+
+      <div class="magnifier-preview" id="js-large-wrapper-data-attributes"
+        style="width: 200px; height: 133px">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
